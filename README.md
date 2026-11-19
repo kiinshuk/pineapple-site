@@ -45,3 +45,6 @@ without the other breaks brand consistency.
 Keep the website updates in sync with the Android project's releases. The download table
 records the SHA-256 and size of each published APK (mirrors the GitHub release assets).
 Update `download.html` when a new tag is cut.
+
+Website tasks are tracked in the [issue backlog](https://github.com/kiinshuk/pineapple-site/issues),
+including [mobile hero alignment (#75)](https://github.com/kiinshuk/pineapple-site/issues/75).
