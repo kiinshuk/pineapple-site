@@ -82,7 +82,7 @@ nav menu a:hover, nav menu a[aria-current="page"] { background:var(--canvas, #7a
 .hero-list .hl span { color:#3d4f97; font-size:.88rem; }
 
 /* device mock */
-.device-mock { position:relative; aspect-ratio:9/19; max-width:300px; margin:2rem auto 0; }
+.device-mock { position:relative; aspect-ratio:9/19; width:100%; max-width:300px; margin:2rem auto 0; }
 .device-frame {
   position:absolute; inset:0; border-radius: 2.2rem;
   background: linear-gradient(180deg, #9fbee7, #7a8aba);
@@ -210,7 +210,7 @@ footer a:hover { color:#e60012; }
   .hero { grid-template-columns:1fr; gap:2rem; margin-top:2rem; }
   .device-mock { margin:1.5rem auto; }
   .cta-row { flex-direction:column; }
-  .cta-row .btn-primary,.cta-row .btn-secondary { width:100%; justify-content:center; }
+  .cta-row .btn-primary,.cta-row .btn-secondary { width:100%; justify-content:center; text-align:center; }
   .visit-cta .actions { flex-direction:column; }
   .visit-cta .actions a { text-align:center; }
   .contact-grid-2 { grid-template-columns:1fr; }
